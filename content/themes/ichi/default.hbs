@@ -34,23 +34,24 @@
     <p>Update your browser to view this website correctly. <a id="btnUpdate" href="http://outdatedbrowser.com/">Update my browser now</a></p>
 </div>
 
-<nav class="top-bar hide-for-large-up" data-topbar {{#if @blog.cover}}style="background: none"{{/if}}>
+<!-- <nav class="top-bar hide-for-large-up" data-topbar {{#if @blog.cover}}style="background: none"{{/if}}> -->
+<nav class="top-bar" data-topbar {{#if @blog.cover}}style="background: none"{{/if}}>
   <ul class="title-area">
     <li class="name">
-      
+
     </li>
-    <!-- <li class="home"><a class="fi-home" href="{{@blog.url}}"></a></li> -->
+    <!-- <li class="home"><a class="fi-home" href="{{@blog.url}}/ghost"></a></li> -->
     <!-- <li class="toggle-topbar"><a href="#" id="trigger-overlay" class="fi-list"></a></li> -->
   </ul>
 
-<div class="overlay overlay-scale">
+<!-- <div class="overlay overlay-scale">
     <button type="button" class="overlay-close">Close</button>
     <nav>
         <ul>
             {{navigation}}
         </ul>
     </nav>
-</div>
+</div> -->
 
 </nav>
 
@@ -81,6 +82,7 @@
                 <a href="#" class="fi-social-steam"></a>
                 <a href="#" class="fi-social-xbox"></a>
                 <a href="#" class="fi-social-reddit"></a> -->
+                <a href="/ghost" class="fi-widget"></a>
                 <a href="#" class="fi-rss"></a>
                 <a href="#" class="fi-social-google-plus"></a>
                 <a href="#" class="fi-social-youtube"></a>
