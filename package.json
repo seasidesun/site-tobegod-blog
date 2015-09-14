@@ -18,7 +18,7 @@
   "license": "MIT",
   "main": "./core/index",
   "scripts": {
-    "start": "node index",
+    "start": "node app",
     "test": "grunt validate --verbose"
   },
   "engines": {
